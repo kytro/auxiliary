@@ -25,7 +25,7 @@ async def async_setup_platform(hass: HomeAssistant, config, async_add_entities, 
     notify = config.get(CONF_NOTIFY)
     icon = config.get(CONF_ICON)
 
-    letzte_ausfuehrung_name = name + " Letzte Ausführung"
+    letzte_ausfuehrung_name = name + " Letzte"
     letzte_ausfuehrung_input_datetime_name = 'input_datetime.' + slugify(letzte_ausfuehrung_name)
 
     erinnern_um_name = name + " Erinnern um"
