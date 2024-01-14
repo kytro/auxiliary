@@ -1,0 +1,9 @@
+{
+    "name": "Auxiliary",
+    "domains": [ "auxiliary" ],
+    "documentation": "https://github.com/kytro/auxiliary/README.md",
+    "issue_tracker": "https://github.com/kytro/auxiliary/issues",
+    "content_in_root": false,
+    "render_readme": true,
+    "iot_class": "local_push"
+}
